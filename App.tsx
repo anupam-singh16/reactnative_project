@@ -41,7 +41,7 @@ const App = () => {
 		setTasks(updatedTasks); 
 	}; 
 
-	const renderItem = (props:number) => ( 
+	const renderItem = (props) => ( 
 		<View style={styles.task}> 
 			<Text 
 				style={styles.itemList}>{props.item}</Text> 
